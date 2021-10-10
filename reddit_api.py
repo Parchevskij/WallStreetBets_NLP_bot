@@ -12,8 +12,8 @@ class RedditConfig:
     self.headers = {'User-Agent': 'StockBot/0.0.1'}
     self.data = {
         'grant_type': 'password',
-        'username': 'GorgeousYevhenii',
-        'password': 'seFhiw-4zuxve-torxaf'
+        'username': '',
+        'password': ''
       }
 
     self.TOKEN = self.get_access_token()
